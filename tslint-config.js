@@ -296,23 +296,9 @@ module.exports = {
             }
         ],
         "triple-equals": true,
-        "tsl-ban-snippets": [
-            true,
-            {
-                "banned": [
-                    {
-                        "regexSnippets": ["(const|let|public|private) [a-zA-Z0-9]+ = {"],
-                        "message": "Add explicit type definitions to object literals to prevent unexpected or missing object keys."
-                    }
-                ]
-            }
-        ],
         "typedef": false,
         "underscore-consistent-invocation": false,
         "unnecessary-bind": true,
         "variable-name": false
-    },
-    "rulesDirectory": [
-        "./node_modules/tslint-ban-snippets/dist/lib"
-    ]
+    }
 }

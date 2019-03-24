@@ -29,7 +29,6 @@
     "tslint-sonarts": "^1.9.0"
   },
   "peerDependencies": {
-    "tslint": ">= 5.14.0",
-    "tslint-ban-snippets": ">= 2.1.0"
+    "tslint": ">= 5.14.0"
   }
 }
