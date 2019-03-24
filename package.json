@@ -21,6 +21,7 @@
     "url": "https://github.com/wh1t3cAt1k/tslint-config-clean-code/issues"
   },
   "homepage": "https://github.com/wh1t3cAt1k/tslint-config-clean-code#readme",
+  "bundledDependencies": ["tslint-ban-snippets"],
   "dependencies": {
     "tslint-ban-snippets": "^2.1.0",
     "tslint-consistent-codestyle": "^1.15.1",
