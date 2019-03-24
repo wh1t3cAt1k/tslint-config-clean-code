@@ -314,7 +314,7 @@ module.exports = {
         "variable-name": false
     },
     "rulesDirectory": [
-        "node_modules/custom-tslint-rules/dist",
-        "node_modules/tslint-ban-snippets/dist/lib"
+        "tslint-config-clean-code/node_modules/custom-tslint-rules/dist",
+        "tslint-config-clean-code/node_modules/tslint-ban-snippets/dist/lib"
     ]
 }
