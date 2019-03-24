@@ -313,6 +313,6 @@ module.exports = {
         "variable-name": false
     },
     "rulesDirectory": [
-        "tslint-config-clean-code/node_modules/tslint-ban-snippets/dist/lib"
+        "tslint-ban-snippets/dist/lib"
     ]
 }
