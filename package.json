@@ -1,0 +1,20 @@
+{
+  "name": "tslint-config-clean-code",
+  "version": "1.0.0",
+  "description": "An opinionated TSLint configuration for enforcing clean code and avoiding hard-to-debug errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wh1t3cAt1k/tslint-config-clean-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wh1t3cAt1k/tslint-config-clean-code/issues"
+  },
+  "homepage": "https://github.com/wh1t3cAt1k/tslint-config-clean-code#readme"
+}
