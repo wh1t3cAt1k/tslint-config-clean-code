@@ -1,12 +1,11 @@
 module.exports = {
     "defaultSeverity": "error",
     "extends": [
-        "tslint-eslint-rules",
         "tslint:recommended",
+        "tslint-eslint-rules",
         "tslint-react",
         "tslint-sonarts",
         "tslint-microsoft-contrib",
-        "custom-tslint-rules",
         "tslint-consistent-codestyle"
     ],
     "rules": {
@@ -314,7 +313,6 @@ module.exports = {
         "variable-name": false
     },
     "rulesDirectory": [
-        "tslint-config-clean-code/node_modules/custom-tslint-rules/dist",
         "tslint-config-clean-code/node_modules/tslint-ban-snippets/dist/lib"
     ]
 }
