@@ -6,7 +6,8 @@ module.exports = {
         'tslint-react',
         'tslint-sonarts',
         'tslint-microsoft-contrib',
-        'tslint-consistent-codestyle'
+        'tslint-consistent-codestyle',
+        'tslint-no-circular-imports',
     ],
     'rules': {
         'arguments-order': true,
