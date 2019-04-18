@@ -245,6 +245,9 @@ module.exports = {
             'ignore-arrow-function-shorthand'
         ],
         'object-literal-sort-keys': false,
+        // Rationale: prefer accidental non-binding of `this`.
+        // -
+        'only-arrow-functions': true,
         'ordered-imports': true,
         'prefer-const-enum': false,
         'prefer-readonly': true,
