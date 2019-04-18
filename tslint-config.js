@@ -10,6 +10,9 @@ module.exports = {
         'tslint-no-circular-imports',
     ],
     'rules': {
+        // Should be handled by Prettier.
+        // -
+        'align': false,
         'arguments-order': true,
         'array-bracket-spacing': [
             true,
@@ -75,6 +78,9 @@ module.exports = {
         'jsx-curly-spacing': [true, 'never'],
         'jsx-equals-spacing': [true, 'never'],
         'jsx-no-bind': true,
+        // Should be handled by Prettier.
+        // -
+        "jsx-no-multiline-js": false,
         'jsx-self-close': true,
         'jsx-space-before-trailing-slash': true,
         'jsx-wrap-multiline': true,
@@ -84,10 +90,9 @@ module.exports = {
             1,
             'exclude-class-expressions'
         ],
-        'max-line-length': [
-            true,
-            100
-        ],
+        // Should be handled by Prettier.
+        // -
+        'max-line-length': false,
         'member-access': [
             true,
             'check-accessor',
@@ -163,7 +168,6 @@ module.exports = {
                 'format': 'PascalCase'
             }
         ],
-        'newline-per-chained-call': true,
         'no-backbone-get-set-outside-model': false,
         'no-big-function': [true, 300],
         'no-boolean-literal-compare': true,
@@ -202,7 +206,8 @@ module.exports = {
             100,
             666,
             1000,
-            2000
+            2000,
+            3600
         ],
         'no-multi-spaces': true,
         'no-namespace': true,
@@ -210,6 +215,9 @@ module.exports = {
         'no-null-keyword': true,
         'no-object-literal-type-assertion': false,
         'no-parameter-properties': true,
+        // Should be handled by Prettier.
+        // -
+        'no-redundant-parentheses': false,
         'no-regex-spaces': true,
         'no-relative-imports': false,
         'no-require-imports': false,
@@ -239,12 +247,12 @@ module.exports = {
         'object-literal-sort-keys': false,
         'ordered-imports': true,
         'prefer-const-enum': false,
+        'prefer-readonly': true,
         'prefer-method-signature': true,
-        /*
-        In some cases we want to force the user to think about a prop and either
-        explicitly pass a value or explicitly pass an undefined. Optional syntax
-        would allow the user to omit the value altogether without any compiler warnings.
-        */
+        // In some cases we want to force the user to think about a prop and either
+        // explicitly pass a value or explicitly pass an undefined. Optional syntax
+        // would allow the user to omit the value altogether without any compiler warnings.
+        // -
         'prefer-optional': false,
         'quotemark': [
             true,
@@ -252,6 +260,9 @@ module.exports = {
             'avoid-escape',
             'avoid-template'
         ],
+        // Should be handled by Prettier. 
+        // -
+        'semicolon': false,
         'space-in-parens': true,
         'space-within-parens': [
             true,
@@ -265,14 +276,12 @@ module.exports = {
             'as-needed'
         ],
         'ter-arrow-spacing': true,
-        'ter-func-call-spacing': true,
-        'ter-indent': [
-            true,
-            4,
-            {
-                'SwitchCase': 1
-            }
-        ],
+        // Should be handled by Prettier.
+        // -
+        'ter-func-call-spacing': false,
+        // Should be handled by Prettier.
+        // -
+        'ter-indent': false,
         'ter-no-mixed-spaces-and-tabs': {
             'type': 'spaces'
         },
