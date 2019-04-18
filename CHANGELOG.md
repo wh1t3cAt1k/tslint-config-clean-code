@@ -1,3 +1,7 @@
+# 2.1.0
+
+Bugfix: disabled `newline-per-chained-call` rule as it should be handled by Prettier.
+
 # 2.0.0
 
 Breaking changes:
