@@ -168,6 +168,9 @@ module.exports = {
                 'format': 'PascalCase'
             }
         ],
+        // Should be handled by Prettier.
+        // -
+        'newline-per-chained-call': false,
         'no-backbone-get-set-outside-model': false,
         'no-big-function': [true, 300],
         'no-boolean-literal-compare': true,
