@@ -1,6 +1,6 @@
 module.exports = {
-    'defaultSeverity': 'error',
-    'extends': [
+    defaultSeverity: 'error',
+    extends: [
         'tslint:recommended',
         'tslint-eslint-rules',
         'tslint-react',
@@ -9,38 +9,29 @@ module.exports = {
         'tslint-consistent-codestyle',
         'tslint-no-circular-imports',
     ],
-    'rules': {
+    rules: {
         'arguments-order': true,
-        'array-bracket-spacing': [
-            true,
-            'never'
-        ],
-        'arrow-parens': [
-            true,
-            'ban-single-arg-parens'
-        ],
+        'array-bracket-spacing': [true, 'never'],
+        'arrow-parens': [true, 'ban-single-arg-parens'],
         'ban-comma-operator': true,
         'binary-expression-operand-order': false,
-        'block-spacing': [
-            true,
-            'always'
-        ],
+        'block-spacing': [true, 'always'],
         'brace-style': [
             true,
             '1tbs',
             {
-                'allowSingleLine': true
-            }
+                allowSingleLine: true,
+            },
         ],
         'bool-param-default': false,
         'completed-docs': false,
         'early-exit': [
             true,
             {
-                'max-length': 4
-            }
+                'max-length': 4,
+            },
         ],
-        'encoding': true,
+        encoding: true,
         'file-name-casing': [true, 'pascal-case'],
         'function-name': [
             true,
@@ -49,29 +40,16 @@ module.exports = {
                 'method-regex': '^[a-z][\\w\\d]+$',
                 'private-method-regex': '^[a-z][\\w\\d]+$',
                 'protected-method-regex': '^[a-z][\\w\\d]+$',
-                'static-method-regex': '^[a-z][A-Za-z\\d]+$'
-            }
+                'static-method-regex': '^[a-z][A-Za-z\\d]+$',
+            },
         ],
-        'handle-callback-err': [
-            true,
-            '^(err|error)$'
-        ],
+        'handle-callback-err': [true, '^(err|error)$'],
         'import-name': false,
         'increment-decrement': [true, 'allow-post'],
-        'indent': [
-            true,
-            'spaces',
-            4
-        ],
-        'interface-name': [
-            true,
-            'always-prefix'
-        ],
+        indent: [true, 'spaces', 4],
+        'interface-name': [true, 'always-prefix'],
         'jasmine-no-lambda-expression-callbacks': false,
-        'jsx-boolean-value': [
-            true,
-            'never'
-        ],
+        'jsx-boolean-value': [true, 'never'],
         'jsx-curly-spacing': [true, 'never'],
         'jsx-equals-spacing': [true, 'never'],
         'jsx-no-bind': true,
@@ -79,89 +57,67 @@ module.exports = {
         'jsx-space-before-trailing-slash': true,
         'jsx-wrap-multiline': true,
         'linebreak-style': false,
-        'max-classes-per-file': [
-            true,
-            1,
-            'exclude-class-expressions'
-        ],
-        'max-line-length': [
-            true,
-            100
-        ],
-        'member-access': [
-            true,
-            'check-accessor',
-            'check-constructor'
-        ],
+        'max-classes-per-file': [true, 1, 'exclude-class-expressions'],
+        'max-line-length': [true, 100],
+        'member-access': [true, 'check-accessor', 'check-constructor'],
         'missing-jsdoc': false,
         'mocha-no-side-effect-code': [
             true,
             {
-                'ignore': 'nameof|createMockStore|it'
-            }
+                ignore: 'nameof|createMockStore|it',
+            },
         ],
         'naming-convention': [
             true,
             {
-                'type': 'default',
-                'format': 'camelCase',
-                'leadingUnderscore': 'forbid',
-                'trailingUnderscore': 'forbid'
+                type: 'default',
+                format: 'camelCase',
+                leadingUnderscore: 'forbid',
+                trailingUnderscore: 'forbid',
             },
             {
-                'type': 'variable',
-                'format': 'camelCase'
+                type: 'variable',
+                format: 'camelCase',
             },
             {
-                'type': 'variable',
-                'modifiers': [
-                    'global',
-                    'const'
-                ],
-                'format': [
-                    'camelCase',
-                    'PascalCase'
-                ]
+                type: 'variable',
+                modifiers: ['global', 'const'],
+                format: ['camelCase', 'PascalCase'],
             },
             {
-                'type': 'variable',
-                'modifiers': [
-                    'export',
-                    'const'
-                ],
-                'format': [
-                    'camelCase',
-                    'PascalCase'
-                ]
+                type: 'variable',
+                modifiers: ['export', 'const'],
+                format: ['camelCase', 'PascalCase'],
             },
             {
-                'type': 'member',
-                'format': [
-                    'camelCase',
-                    'PascalCase'
-                ]
+                type: 'member',
+                format: ['camelCase', 'PascalCase'],
             },
             {
-                'type': 'type',
-                'format': 'StrictPascalCase'
+                type: 'type',
+                format: 'StrictPascalCase',
             },
             {
-                'type': 'parameter',
-                'modifiers': 'unused',
-                'leadingUnderscore': 'allow'
+                type: 'typeAlias',
+                format: 'PascalCase',
             },
             {
-                'type': 'interface',
-                'prefix': 'I'
+                type: 'parameter',
+                modifiers: 'unused',
+                leadingUnderscore: 'allow',
             },
             {
-                'type': 'genericTypeParameter',
-                'prefix': 'T'
+                type: 'interface',
+                prefix: 'I',
             },
             {
-                'type': 'enumMember',
-                'format': 'PascalCase'
-            }
+                type: 'genericTypeParameter',
+                prefix: 'T',
+            },
+            {
+                type: 'enumMember',
+                format: 'PascalCase',
+            },
         ],
         'newline-per-chained-call': true,
         'no-backbone-get-set-outside-model': false,
@@ -202,7 +158,7 @@ module.exports = {
             100,
             666,
             1000,
-            2000
+            2000,
         ],
         'no-multi-spaces': true,
         'no-namespace': true,
@@ -218,7 +174,7 @@ module.exports = {
             true,
             'redux-saga-test-plan/matchers',
             'redux-saga-test-plan/providers',
-            'redux-saga/effects'
+            'redux-saga/effects',
         ],
         'no-suspicious-comment': false,
         'no-trailing-whitespace': true,
@@ -232,10 +188,7 @@ module.exports = {
         'no-use-before-declare': false,
         'no-useless-catch': true,
         'no-var-before-return': true,
-        'no-void-expression': [
-            true,
-            'ignore-arrow-function-shorthand'
-        ],
+        'no-void-expression': [true, 'ignore-arrow-function-shorthand'],
         'object-literal-sort-keys': false,
         'ordered-imports': true,
         'prefer-const-enum': false,
@@ -246,58 +199,44 @@ module.exports = {
         would allow the user to omit the value altogether without any compiler warnings.
         */
         'prefer-optional': false,
-        'quotemark': [
-            true,
-            'single',
-            'avoid-escape',
-            'avoid-template'
-        ],
+        quotemark: [true, 'single', 'avoid-escape', 'avoid-template'],
         'space-in-parens': true,
-        'space-within-parens': [
-            true,
-            0
-        ],
+        'space-within-parens': [true, 0],
         'strict-boolean-expressions': true,
         'switch-default': true,
         'switch-final-break': false,
-        'ter-arrow-body-style': [
-            true,
-            'as-needed'
-        ],
+        'ter-arrow-body-style': [true, 'as-needed'],
         'ter-arrow-spacing': true,
         'ter-func-call-spacing': true,
         'ter-indent': [
             true,
             4,
             {
-                'SwitchCase': 1
-            }
+                SwitchCase: 1,
+            },
         ],
         'ter-no-mixed-spaces-and-tabs': {
-            'type': 'spaces'
+            type: 'spaces',
         },
         'ter-no-proto': true,
         'ter-no-self-compare': true,
         'ter-no-sparse-arrays': true,
         'ter-no-tabs': true,
-        'ter-padded-blocks': [
-            true,
-            'never'
-        ],
+        'ter-padded-blocks': [true, 'never'],
         'trailing-comma': [
             true,
             {
-                'multiline': {
-                    'arrays': 'always',
-                    'functions': 'never',
-                    'objects': 'always',
-                    'typeLiterals': 'ignore'
+                multiline: {
+                    arrays: 'always',
+                    functions: 'never',
+                    objects: 'always',
+                    typeLiterals: 'ignore',
                 },
-                'singleline': 'never'
-            }
+                singleline: 'never',
+            },
         ],
         'triple-equals': true,
-        'typedef': false,
+        typedef: false,
         'underscore-consistent-invocation': false,
         'unnecessary-bind': true,
         'variable-name': false,
@@ -313,5 +252,5 @@ module.exports = {
         // Deprecated
         // -
         'no-unnecessary-bind': false,
-    }
-}
+    },
+};
