@@ -1,8 +1,18 @@
-# 1.2.0
+# 2.2.1
 
 Relaxed the requirement for type aliases naming convention. Non-strict PascalCase is now allowed. 
 
 Rationale: interface type aliases where you would like to preserve the 'I' variable in front of the.
+# 2.1.0
+
+Bugfix: disabled `newline-per-chained-call` rule as it should be handled by Prettier.
+
+# 2.0.0
+
+Breaking changes:
+
+1. We now recommend [`Prettier`](https://prettier.io/docs/en/install.html) for all your code formatting. The rules related to whitespace, indents, etc. have all been disabled.
+2. [`no-arrow-functions](https://palantir.github.io/tslint/rules/only-arrow-functions/) is now enabled to ensure that `this` is always properly bound.
 
 # 1.1.0
 
