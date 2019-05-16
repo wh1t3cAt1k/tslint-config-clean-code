@@ -10,6 +10,9 @@ module.exports = {
         'tslint-no-circular-imports',
     ],
     rules: {
+        // Should be handled by Prettier.
+        // -
+        'align': false,
         'arguments-order': true,
         'array-bracket-spacing': [true, 'never'],
         'arrow-parens': [true, 'ban-single-arg-parens'],
