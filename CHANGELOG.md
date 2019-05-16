@@ -1,3 +1,7 @@
+# 3.0.1
+
+Disabled arguments alignment linting as it should be handled by Prettier.
+
 # 3.0.0
 
 Enforced consistent usage of type casts: `as Foo` instead of `<Foo>`.
