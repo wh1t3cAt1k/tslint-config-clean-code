@@ -1,3 +1,11 @@
+# 4.0.0
+
+Disabled unused imports, variables, functions, and private class members, using `no-unused-variable` rule.
+
+Rationale: `tsc`'s equivalent `--noUnusedParameters` and `--noUnusedLocals` options are an obligatory compilation failure that cannot be controlled even via `exclude` as long as those files are used by "included" code.
+
+So, e.g. for auto-generated API code or external copy-pasted forks, our users would like to control this behaviour via a linter instead, ignoring failures as needed.
+
 # 3.0.1
 
 Disabled arguments alignment linting as it should be handled by Prettier.
