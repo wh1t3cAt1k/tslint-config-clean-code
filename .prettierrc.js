@@ -9,4 +9,5 @@ module.exports = {
     jsxBracketSameLine: false,
     arrowParens: 'avoid',
     parser: 'typescript',
+    quoteProps: 'consistent',
 };

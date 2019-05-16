@@ -1,3 +1,7 @@
+# 3.0.0
+
+Enforced consistent usage of type casts: `as Foo` instead of `<Foo>`.
+
 # 2.2.1
 
 Relaxed the requirement for type aliases naming convention. Non-strict PascalCase is now allowed. 

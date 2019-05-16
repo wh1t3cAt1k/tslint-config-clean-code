@@ -31,7 +31,7 @@ module.exports = {
                 'max-length': 4,
             },
         ],
-        encoding: true,
+        'encoding': true,
         'file-name-casing': [true, 'pascal-case'],
         'function-name': [
             true,
@@ -46,7 +46,7 @@ module.exports = {
         'handle-callback-err': [true, '^(err|error)$'],
         'import-name': false,
         'increment-decrement': [true, 'allow-post'],
-        indent: [true, 'spaces', 4],
+        'indent': [true, 'spaces', 4],
         'interface-name': [true, 'always-prefix'],
         'jasmine-no-lambda-expression-callbacks': false,
         'jsx-boolean-value': [true, 'never'],
@@ -127,6 +127,7 @@ module.exports = {
         // Should be handled by Prettier.
         // -
         'newline-per-chained-call': false,
+        'no-angle-bracket-type-assertion': true,
         'no-backbone-get-set-outside-model': false,
         'no-big-function': [true, 300],
         'no-boolean-literal-compare': true,
@@ -213,10 +214,13 @@ module.exports = {
         // would allow the user to omit the value altogether without any compiler warnings.
         // -
         'prefer-optional': false,
-        quotemark: [true, 'single', 'avoid-escape', 'avoid-template'],
+        // 'as' cast should be used everywhere instead.
+        // -
+        'prefer-type-cast': false,
+        'quotemark': [true, 'single', 'avoid-escape', 'avoid-template'],
         // Should be handled by Prettier.
         // -
-        semicolon: false,
+        'semicolon': false,
         'space-in-parens': true,
         'space-within-parens': [true, 0],
         'strict-boolean-expressions': true,
@@ -251,7 +255,7 @@ module.exports = {
             },
         ],
         'triple-equals': true,
-        typedef: false,
+        'typedef': false,
         'underscore-consistent-invocation': false,
         'unnecessary-bind': true,
         'variable-name': false,
