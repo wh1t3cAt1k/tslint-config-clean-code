@@ -130,6 +130,9 @@ module.exports = {
         // Should be handled by Prettier.
         // -
         'newline-per-chained-call': false,
+        // Handled by eslint-config-clean-code
+        // -
+        'no-any': false,
         'no-angle-bracket-type-assertion': true,
         'no-backbone-get-set-outside-model': false,
         'no-big-function': [true, 300],
