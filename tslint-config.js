@@ -199,7 +199,6 @@ module.exports = {
         'no-unnecessary-else': true,
         'no-unnecessary-qualifier': true,
         'no-unsafe-any': false,
-        'no-unused-variable': true,
         'no-unused-expression': true,
         'no-use-before-declare': false,
         'no-useless-catch': true,

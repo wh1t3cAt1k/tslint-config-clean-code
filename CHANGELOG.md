@@ -1,3 +1,7 @@
+# 4.0.1
+
+Removed the `no-unused-variable` rule as it is deprecated.
+
 # 4.0.0
 
 Disabled unused imports, variables, functions, and private class members, using `no-unused-variable` rule.
