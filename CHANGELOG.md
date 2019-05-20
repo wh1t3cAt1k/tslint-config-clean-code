@@ -1,3 +1,7 @@
+# 4.0.3
+
+Removed the `no-any` rule in favour of `eslint-config-clean-code`.
+
 # 4.0.1
 
 Removed the `no-unused-variable` rule as it is deprecated.
