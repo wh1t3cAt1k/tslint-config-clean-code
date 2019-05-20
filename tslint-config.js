@@ -188,6 +188,9 @@ module.exports = {
         'no-relative-imports': false,
         'no-require-imports': false,
         'no-static-this': true,
+        // Needed for /* eslint-disable */ comment.
+        // -
+        'no-single-line-block-comment': false,
         'no-submodule-imports': [
             true,
             'redux-saga-test-plan/matchers',
