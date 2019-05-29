@@ -50,7 +50,9 @@ module.exports = {
         'import-name': false,
         'increment-decrement': [true, 'allow-post'],
         'indent': [true, 'spaces', 4],
-        'interface-name': [true, 'always-prefix'],
+        // Handled by eslint-config-clean-code.
+        // -
+        'interface-name': false,
         'jasmine-no-lambda-expression-callbacks': false,
         'jsx-boolean-value': [true, 'never'],
         'jsx-curly-spacing': [true, 'never'],
@@ -113,10 +115,6 @@ module.exports = {
                 type: 'parameter',
                 modifiers: 'unused',
                 leadingUnderscore: 'allow',
-            },
-            {
-                type: 'interface',
-                prefix: 'I',
             },
             {
                 type: 'genericTypeParameter',

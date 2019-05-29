@@ -1,3 +1,7 @@
+# 4.0.5
+
+Removed the `interface-name` rule in favour of `eslint-config-clean-code`.
+
 # 4.0.3
 
 Removed the `no-any` rule in favour of `eslint-config-clean-code`.
