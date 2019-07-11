@@ -104,15 +104,7 @@ module.exports = {
                 format: ['camelCase', 'PascalCase'],
             },
             {
-                type: 'interface',
-                format: 'PascalCase',
-            },
-            {
                 type: 'type',
-                format: 'StrictPascalCase',
-            },
-            {
-                type: 'typeAlias',
                 format: 'PascalCase',
             },
             {
