@@ -1,3 +1,7 @@
+# 4.0.6
+
+Updated the ignore list of `mocha-no-side-effect-code` to include the `getType` function of `typesafe-actions`.
+
 # 4.0.5
 
 Removed the `interface-name` rule in favour of `eslint-config-clean-code`.

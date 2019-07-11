@@ -74,7 +74,7 @@ module.exports = {
         'mocha-no-side-effect-code': [
             true,
             {
-                ignore: 'nameof|createMockStore|it',
+                ignore: 'nameof|createMockStore|it|getType',
             },
         ],
         'naming-convention': [
@@ -178,6 +178,7 @@ module.exports = {
         'no-non-null-assertion': false,
         'no-null-keyword': true,
         'no-object-literal-type-assertion': false,
+        'no-parameter-reassignment': true,
         'no-parameter-properties': true,
         // Should be handled by Prettier.
         // -
