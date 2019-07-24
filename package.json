@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-clean-code",
-  "version": "4.0.2",
+  "version": "4.0.8",
   "description": "An opinionated TSLint configuration for enforcing clean code and avoiding hard-to-debug errors",
   "main": "tslint-config.js",
   "scripts": {

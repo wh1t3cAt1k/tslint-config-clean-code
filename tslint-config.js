@@ -50,7 +50,9 @@ module.exports = {
         'import-name': false,
         'increment-decrement': [true, 'allow-post'],
         'indent': [true, 'spaces', 4],
-        'interface-name': [true, 'always-prefix'],
+        // Handled by eslint-config-clean-code.
+        // -
+        'interface-name': false,
         'jasmine-no-lambda-expression-callbacks': false,
         'jsx-boolean-value': [true, 'never'],
         'jsx-curly-spacing': [true, 'never'],
@@ -72,7 +74,7 @@ module.exports = {
         'mocha-no-side-effect-code': [
             true,
             {
-                ignore: 'nameof|createMockStore|it',
+                ignore: 'nameof|createMockStore|it|getType',
             },
         ],
         'naming-convention': [
@@ -103,20 +105,12 @@ module.exports = {
             },
             {
                 type: 'type',
-                format: 'StrictPascalCase',
-            },
-            {
-                type: 'typeAlias',
                 format: 'PascalCase',
             },
             {
                 type: 'parameter',
                 modifiers: 'unused',
                 leadingUnderscore: 'allow',
-            },
-            {
-                type: 'interface',
-                prefix: 'I',
             },
             {
                 type: 'genericTypeParameter',
@@ -130,6 +124,9 @@ module.exports = {
         // Should be handled by Prettier.
         // -
         'newline-per-chained-call': false,
+        // Handled by eslint-config-clean-code
+        // -
+        'no-any': false,
         'no-angle-bracket-type-assertion': true,
         'no-backbone-get-set-outside-model': false,
         'no-big-function': [true, 300],
@@ -177,6 +174,7 @@ module.exports = {
         'no-non-null-assertion': false,
         'no-null-keyword': true,
         'no-object-literal-type-assertion': false,
+        'no-parameter-reassignment': true,
         'no-parameter-properties': true,
         // Should be handled by Prettier.
         // -
@@ -185,6 +183,9 @@ module.exports = {
         'no-relative-imports': false,
         'no-require-imports': false,
         'no-static-this': true,
+        // Needed for /* eslint-disable */ comment.
+        // -
+        'no-single-line-block-comment': false,
         'no-submodule-imports': [
             true,
             'redux-saga-test-plan/matchers',
@@ -199,7 +200,6 @@ module.exports = {
         'no-unnecessary-else': true,
         'no-unnecessary-qualifier': true,
         'no-unsafe-any': false,
-        'no-unused-variable': true,
         'no-unused-expression': true,
         'no-use-before-declare': false,
         'no-useless-catch': true,

@@ -1,6 +1,26 @@
-# 4.0.2
+# 4.0.9
 
 Disabled the `strict-boolean-expression` in favour of [`eslint-config-clean-code`](https://www.npmjs.com/package/eslint-config-clean-code).
+
+# 4.0.7
+
+The interface name naming convention relaxed from `StrictPascalCase` to `PascalCase`. This is to allow `IInterfaceName` naming.
+
+# 4.0.6
+
+Updated the ignore list of `mocha-no-side-effect-code` to include the `getType` function of `typesafe-actions`.
+
+# 4.0.5
+
+Removed the `interface-name` rule in favour of [`eslint-config-clean-code`](https://www.npmjs.com/package/eslint-config-clean-code).
+
+# 4.0.3
+
+Removed the `no-any` rule in favour of [`eslint-config-clean-code`](https://www.npmjs.com/package/eslint-config-clean-code).
+
+# 4.0.1
+
+Removed the `no-unused-variable` rule as it is deprecated.
 
 # 4.0.0
 

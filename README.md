@@ -2,6 +2,12 @@
 
 An opinionated TSLint configuration for enforcing clean code and avoiding hard-to-debug errors
 
+# Transition notice
+
+Since `tslint` is going to become deprecated some time in the future, this package is to be used in conjunction with [`eslint-config-clean-code`](https://www.npmjs.com/package/eslint-config-clean-code). 
+
+Any rules that are covered in `eslint-config-clean-code` will gradually be disabled.
+
 # Choices
 
 ## Single automatic code formatting
