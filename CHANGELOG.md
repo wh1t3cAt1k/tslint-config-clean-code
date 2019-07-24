@@ -1,6 +1,6 @@
-# 4.0.1
+# 4.0.2
 
-Disabled the `strict-boolean-expression` in faviour of [`eslint-config-clean-code`](https://www.npmjs.com/package/eslint-config-clean-code).
+Disabled the `strict-boolean-expression` in favour of [`eslint-config-clean-code`](https://www.npmjs.com/package/eslint-config-clean-code).
 
 # 4.0.0
 
