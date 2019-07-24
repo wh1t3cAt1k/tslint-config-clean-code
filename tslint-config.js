@@ -227,7 +227,6 @@ module.exports = {
         'semicolon': false,
         'space-in-parens': true,
         'space-within-parens': [true, 0],
-        'strict-boolean-expressions': true,
         'switch-default': true,
         'switch-final-break': false,
         'ter-arrow-body-style': [true, 'as-needed'],

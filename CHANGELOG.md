@@ -1,3 +1,7 @@
+# 4.0.1
+
+Disabled the `strict-boolean-expression` in faviour of [`eslint-config-clean-code`](https://www.npmjs.com/package/eslint-config-clean-code).
+
 # 4.0.0
 
 Disabled unused imports, variables, functions, and private class members, using `no-unused-variable` rule.
