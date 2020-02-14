@@ -1,3 +1,7 @@
+# 4.0.10
+
+Relaxed the side effect import rule with html / css / portable fetch imports.
+
 # 4.0.9
 
 Disabled the `strict-boolean-expression` in favour of [`eslint-config-clean-code`](https://www.npmjs.com/package/eslint-config-clean-code).
