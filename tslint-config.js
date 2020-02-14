@@ -142,6 +142,9 @@ module.exports = {
         'no-extra-boolean-cast': true,
         'no-extra-semi': true,
         'no-implicit-dependencies': [true, 'dev'],
+        'no-import-side-effect': [true, {
+            'ignore-module': "(\\.html|\\.css||^portable-fetch$)"
+        }],
         'no-inferrable-types': true,
         'no-inner-declarations': true,
         'no-invalid-regexp': true,
