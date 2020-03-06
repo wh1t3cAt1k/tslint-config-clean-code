@@ -127,7 +127,9 @@ module.exports = {
         // Handled by eslint-config-clean-code
         // -
         'no-any': false,
-        'no-angle-bracket-type-assertion': true,
+        // Handled by eslint-config-clean-code
+        // -
+        'no-angle-bracket-type-assertion': false,
         'no-backbone-get-set-outside-model': false,
         'no-big-function': [true, 300],
         'no-boolean-literal-compare': true,
@@ -176,6 +178,8 @@ module.exports = {
         'no-namespace': true,
         'no-non-null-assertion': false,
         'no-null-keyword': true,
+        // Handled by eslint-config-clean-code
+        // -
         'no-object-literal-type-assertion': false,
         'no-parameter-reassignment': true,
         'no-parameter-properties': true,

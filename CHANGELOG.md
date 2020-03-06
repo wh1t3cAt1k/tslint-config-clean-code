@@ -1,3 +1,7 @@
+# 4.0.11
+
+Relaxed `no-angle-brackets-type-assertion` in favour of [`eslint-config-clean-code`](https://www.npmjs.com/package/eslint-config-clean-code).
+
 # 4.0.10
 
 Relaxed the side effect import rule with html / css / portable fetch imports.
